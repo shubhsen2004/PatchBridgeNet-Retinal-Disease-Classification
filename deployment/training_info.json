@@ -1,0 +1,43 @@
+{
+  "run": "fixed_svm_cw-none_flip_k350_seed42",
+  "n_images": 2064,
+  "class_counts": {
+    "AMD": 1231,
+    "DME": 147,
+    "ERM": 155,
+    "NO": 332,
+    "RAO": 22,
+    "RVO": 101,
+    "VID": 76
+  },
+  "torch": "2.11.0+cu130",
+  "S_7class": [
+    149,
+    170,
+    281
+  ],
+  "S_binary": [
+    102,
+    227,
+    290
+  ],
+  "Smerge": 350,
+  "calibration_7class": {
+    "best_C": 0.1,
+    "log_loss": 0.27734436889399583,
+    "brier": 0.12991165351418518,
+    "ece": 0.017108243281277025,
+    "argmax_accuracy": 91.76356589147287,
+    "svm_accuracy": 92.34496124031007,
+    "agreement_with_svm": 98.30426356589147
+  },
+  "calibration_binary": {
+    "best_C": 3.0,
+    "log_loss": 0.07706081963491106,
+    "brier": 0.04399391104385685,
+    "ece": 0.0035450929668038463,
+    "argmax_accuracy": 97.09302325581395,
+    "svm_accuracy": 97.14147286821705,
+    "agreement_with_svm": 99.8546511627907
+  }
+}

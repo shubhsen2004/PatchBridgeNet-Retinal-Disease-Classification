@@ -1,0 +1,6 @@
+[server]
+fileWatcherType = "none"
+maxUploadSize = 50
+
+[runner]
+magicEnabled = false
